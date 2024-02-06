@@ -10,27 +10,48 @@
 </head>
 
 <body>
-    <nav>
-        <div class="row">
-            <div class="container flex justify-between">
-                <div class="nav__logo">
-                    <img src="../CSS/template/components/img-nav/netflix-seeklogo.svg" alt="logo" />
-                </div>
-                <div class="nav__btn-actions">
-                    <select name="languages" id="languages">
-                        <option value="italian" selected>Italiano</option>
-                        <option value="english">Inglese</option>
-                    </select>
-                    <button class="btn-primary" value="login">Accedi</button>
+    <div class="nav-headerLayout">
+        <div class="nav-head">
+            <nav>
+            <div class="row nav_container">
+                <div class="container flex justify-between">
+                    <div class="nav__logo">
+                        <img src="../CSS/template/components/img-nav/netflix-seeklogo.svg" alt="logo" />
+                    </div>
+                    <div class="nav__btn-actions">
+                        <select name="languages" class="dopdown-lang" id="languages">
+                            <option value="italian" selected>Italiano</option>
+                            <option value="english">Inglese</option>
+                        </select>
+                        <button class="btn-nav btn-primary" value="login">Accedi</button>
+                    </div>
                 </div>
             </div>
-        </div>
+        </nav>
         <header>
-            <h1>Film, serie TV e tanto altro, senza limiti</h1>
-            <p>Guarda ciò che vuoi ovunque. Disdici quando vuoi.</h3>
-            <p>Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo abbonamento.</h3>
+            <div class="container">
+                <h1 class="title">Film, serie TV e tanto altro, senza limiti</h1>
+                <p class="text">Guarda ciò che vuoi ovunque. Disdici quando vuoi.</p>
+                <p class="text">Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo
+                    abbonamento.</p>
+            </div>
         </header>
-    </nav>
+        </div>
+        
+        <img alt="bg-image"
+            src="https://assets.nflxext.com/ffe/siteui/vlv3/4da5d2b1-1b22-498d-90c0-4d86701dffcc/5d203cac-4760-43cb-9fd9-ffa39a280c97/IT-it-20240129-popsignuptwoweeks-perspective_alpha_website_small.jpg"
+            srcset="https://assets.nflxext.com/ffe/siteui/vlv3/4da5d2b1-1b22-498d-90c0-4d86701dffcc/5d203cac-4760-43cb-9fd9-ffa39a280c97/IT-it-20240129-popsignuptwoweeks-perspective_alpha_website_small.jpg 1000w, https://assets.nflxext.com/ffe/siteui/vlv3/4da5d2b1-1b22-498d-90c0-4d86701dffcc/5d203cac-4760-43cb-9fd9-ffa39a280c97/IT-it-20240129-popsignuptwoweeks-perspective_alpha_website_medium.jpg 1500w, https://assets.nflxext.com/ffe/siteui/vlv3/4da5d2b1-1b22-498d-90c0-4d86701dffcc/5d203cac-4760-43cb-9fd9-ffa39a280c97/IT-it-20240129-popsignuptwoweeks-perspective_alpha_website_large.jpg 1800w"
+            class="header_bg-image" />
+    </div>
+
+
+
+
+
+
+
+
+
 
 </body>
 
