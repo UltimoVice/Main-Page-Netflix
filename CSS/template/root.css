@@ -10,3 +10,7 @@
     /* font */
     --btn-primary-font-size: 1.5rem;
 }
+
+h1 {
+    font-size: 32px;
+}
