@@ -20,3 +20,16 @@
     font-size: var(--btn-primary-font-size);
 }
 
+.title {
+    font-size: var(--title-primary-font-size);
+    margin: var(--title-margin);
+    font-weight: var(--title-font-weight);
+}
+
+.text {
+    margin: var(--text-margin);
+    font-size: var(--text-font-size);
+    font-weight: var(--text-font-weight);
+}
+
+
