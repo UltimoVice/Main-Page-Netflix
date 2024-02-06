@@ -1,0 +1,22 @@
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.row.section {
+    padding: var(--section-tb-padding);
+}
+
+.row .container {
+    width: 100%;
+    max-width: var(--general-max-width);
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    padding: var(--btn-primary-padding);
+    font-size: var(--btn-primary-font-size);
+}
+
