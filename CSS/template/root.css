@@ -2,11 +2,19 @@
     /* colors */
     --color-primary: rgb(229, 9, 20);
     --color-secondary: rgb(255, 255, 255);
-    /* sizing 1170px*/
+    --color-terziary: rgb(0, 0, 0);
+    --color-fourty: rgb(45,45,45);
+    /* sizing */
     --general-max-width: 1170px;
     /* spacing */
     --btn-primary-padding: 0.75rem 1.5rem;
     --section-tb-padding: 72px;
     /* font */
     --btn-primary-font-size: 1.5rem;
+    --title-primary-font-size: 2rem;
+    --title-font-weight: 700;
+    --title-margin: 0;
+    --text-font-weight: 400;
+    --text-margin: 1rem 0 0;
+    --text-font-size: 1.125rem;
 }
