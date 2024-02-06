@@ -1,11 +1,23 @@
 nav .nav__logo {
-
+    width: 50px;
+    height: auto;
 }
 
 nav .nav__logo img {
-    
+    width:inherit;
 }
 
 nav .nav__btn-actions {
     
+}
+
+nav {
+    height: 100%;
+    min-height: 30rem;
+    padding: var(--btn-primary-padding);
+    margin: 0;
+    background-image: url(img-nav/background.jpeg);
+    
+    color: var(--color-secondary);
+    text-align: center;
 }
