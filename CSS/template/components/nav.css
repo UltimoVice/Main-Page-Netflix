@@ -29,20 +29,20 @@ nav .dopdown-lang {
 
 nav .nav_container {
     width: 100vw;
-padding-bottom: 4rem;
+    padding-bottom: 4rem;
     margin: 0;
     color: var(--color-secondary);
     text-align: center;
 }
 
-header .container{
+header .container {
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
- .bg-image {
+.bg-image {
     width: 100vw;
     display: flex;
     justify-self: flex-start;
@@ -55,13 +55,21 @@ header {
 }
 
 .nav-headerLayout {
-    position:relative;
+    position: relative;
     display: flex;
     flex-direction: column;
 }
+/* altro modo per mettere immagine di background */
+
+/* 
+.img-background {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/4da5d2b1-1b22-498d-90c0-4d86701dffcc/5d203cac-4760-43cb-9fd9-ffa39a280c97/IT-it-20240129-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-position: 0;
+    background-size: 0;
+} */
 
 .nav-headerLayout img {
-    align-self: flex-start ;
+    align-self: flex-start;
     margin: 0;
     padding: 0;
     background: #fff;
@@ -80,6 +88,8 @@ header {
     left: 0;
     bottom: 0;
 }
+
+
 
 
 
