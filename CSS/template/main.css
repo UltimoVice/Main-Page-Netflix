@@ -1,3 +1,11 @@
+body {
+    background-color: var(--color-terziary);
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
 .row {
     width: 100%;
     display: flex;
@@ -24,12 +32,78 @@
     font-size: var(--title-primary-font-size);
     margin: var(--title-margin);
     font-weight: var(--title-font-weight);
+    color: var(--color-secondary);
+    font-family: var(--font-family);
 }
 
-.text {
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p {
     margin: var(--text-margin);
     font-size: var(--text-font-size);
     font-weight: var(--text-font-weight);
+    color: var(--color-secondary);
+    font-family: var(--font-family);
 }
 
+.main-text {
+    margin: var(--text-margin);
+    font-size: var(--main-text-font-size);
+    font-weight: var(--text-font-weight);
+    color: var(--color-secondary);
+    font-family: var(--font-family);
+}
+
+div {
+    height: fit-content;
+}
+
+.card {
+    margin: auto;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    max-width: calc( 83.33333333333334% - 6rem );
+    
+}
+
+.card-text {
+    text-align: left;
+    justify-content: center;
+}
+
+.png {
+    position: relative;
+    width: 100%;
+    border: 0;
+}
+
+.card-video {
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+} 
+
+hr {
+    height: 8px;
+    background-color: var(--color-fourty);
+    border: 0px;
+}
 
