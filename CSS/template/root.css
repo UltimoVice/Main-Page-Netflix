@@ -11,9 +11,10 @@
     --section-tb-padding: 72px;
     /* font */
     --btn-primary-font-size: 1.5rem;
-    --title-primary-font-size: 2rem;
-    --title-font-weight: 700;
+    --title-primary-font-size: 3rem;
+    --title-font-weight: 900;
     --title-margin: 0;
+    
     --text-font-weight: 400;
     --text-margin: 1rem 0 0;
     --text-font-size: 1.125rem;
