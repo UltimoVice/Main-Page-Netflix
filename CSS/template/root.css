@@ -6,6 +6,7 @@
     --color-fourty: rgb(45,45,45);
     /* sizing */
     --general-max-width: 1170px;
+    --max-width: calc(83.33333333333334% - 6rem);
     /* spacing */
     --btn-primary-padding: 0.75rem 1.5rem;
     --section-tb-padding: 72px;

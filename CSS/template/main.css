@@ -71,7 +71,7 @@ div {
     -webkit-box-align: center;
     align-items: center;
     text-align: center;
-    max-width: calc( 83.33333333333334% - 6rem );
+    max-width: var(--max-width);
     
 }
 
