@@ -1,0 +1,80 @@
+.card-video2 {
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.box-img {
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    background: rgb(0,0,0);
+    -webkit-box-align: center;
+    align-items: center;
+    min-width: 15rem;
+    border: 2px solid rgba(128,128,128,0.7);
+    box-shadow: 0 0 2em 0 rgb(0,0,0);
+    border-radius: 0.75rem;
+    z-index: 1;
+    padding: 0.5rem 0.75rem;
+    width: 50%;
+}
+
+.poster {
+    height: 5rem;
+    border: 0;
+    margin: 0 1rem 0 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.box-title {
+    text-align: left;
+    -webkit-box-flex: 1;
+    flex-shrink: 1;
+    margin: 0.3rem 0;
+    flex-grow: 1;
+}
+
+.stranger {
+    font-size: 1rem;
+    color: var(--color-secondary);
+    font-weight: 500;
+    text-align: left;
+    font-family: var(--font-family);
+}
+
+.download {
+    font-size: 0.875rem;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: #0071eb;
+    text-align: left;
+}
+
+.download-img {
+    height: 3.75rem;
+    width: 3rem;
+    outline: 2px solid rgb(0,0,0);
+    outline-offset: -2px;
+    display: block;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+    background-size: 100%;
+    content: '';
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}

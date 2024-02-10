@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -11,6 +12,7 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    overflow-y: auto;
 }
 
 .row {
@@ -77,8 +79,7 @@ div {
     -webkit-box-align: center;
     align-items: center;
     text-align: center;
-    max-width: var(--max-width);
-    
+    max-width: var(--general-max-width);
 }
 
 .card-text {
@@ -92,7 +93,7 @@ div {
     border: 0;
 }
 
-.card-video {
+.card-video1 {
     z-index: -1;
     overflow: hidden;
     width: 100%;
