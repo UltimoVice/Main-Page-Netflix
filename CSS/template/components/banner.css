@@ -1,0 +1,50 @@
+.sfondo {
+   background: radial-gradient( 51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100% );;
+   box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.5);
+   border-radius: 4px;
+   margin: 0 74px;
+   color: var(--color-secondary);
+   padding: 22px;
+   position: relative;
+}
+
+.par1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+.par2 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-family: var(--font-family);
+}
+
+.link {
+    cursor: pointer;
+    color: #448ef4;
+    width: fit-content;
+    font-weight: 500;
+    background: none;
+    border: none;
+    gap: 8px;
+    padding: 0;
+    font-family: var(--font-family);
+}
+
+.freccia {
+    cursor: pointer;
+    color: #448ef4;
+}
+
+.popcorn {
+    overflow: hidden;
+}
+
+.bannertextcontainer {
+    padding: 32px;
+}
