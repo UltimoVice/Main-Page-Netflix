@@ -24,21 +24,11 @@
     font-family: var(--font-family);
 }
 
-.link {
-    cursor: pointer;
-    color: #448ef4;
-    width: fit-content;
-    font-weight: 500;
-    background: none;
-    border: none;
-    gap: 8px;
-    padding: 0;
-    font-family: var(--font-family);
-}
 
 .freccia {
     cursor: pointer;
     color: #448ef4;
+   
 }
 
 .popcorn {
@@ -47,4 +37,20 @@
 
 .bannertextcontainer {
     padding: 32px;
+}
+
+.button-svg {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #448ef4;
+    width: fit-content;
+    font-weight: 500;
+    gap: 8px;
+    padding: 0;
+    font-family: var(--font-family);
+    font-size: inherit;
+    text-decoration: underline;
 }
