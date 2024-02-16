@@ -37,7 +37,7 @@ p {
 
 .headerLayout {
     height: 43.75rem;
-    max-width: var(--max-width);
+    max-width: 100%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -179,6 +179,26 @@ header {
 }
 
 @media (max-width: 600px) {
+    .callToAction {
+        margin: 18px 0 0 0;
+        max-width: inherit;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #email {
+        height: 48px;
+        max-width: inherit;
+    }
+
+    #email label, #email label {
+        min-height: 24px;
+        max-width: inherit;
+            padding: 20px 0
+    }
+}
+
+@media (max-width: 960px) {
 #max-width {
     max-width: 61.5rem;
 }
@@ -221,24 +241,5 @@ header {
     header {
         height: inherit;
         max-width: inherit;
-    }
-
-
-    .callToAction {
-        margin: 18px 0 0 0;
-        max-width: inherit;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    #email {
-        height: 48px;
-        max-width: inherit;
-    }
-
-    #email label, #email label {
-        min-height: 24px;
-        max-width: inherit;
-            padding: 20px 0
     }
 }
