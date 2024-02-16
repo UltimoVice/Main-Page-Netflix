@@ -1,8 +1,39 @@
-/* * {
+/* da aggiungere al root o main  */
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.btn-primary {
+    border: 0;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: rgb(193, 17, 25);
+}
+
+.svg-def {
+    margin: 0 0.5rem;
+}
+
+/* contenitore header e nav*/
 
 .headerLayout {
     height: 43.75rem;
@@ -12,24 +43,19 @@
     flex-direction: column;
 }
 
-.column {
-    flex-direction: column;
-}
-
-.start {
-    justify-self: flex-start;
-}
+/* nav */
 
 nav .nav__logo {
+    height: inherit;
     width: auto;
 
 }
 
-nav .nav__logo img {
-    background-color: transparent;
+nav .nav__logo .logo {
+    color: var(--color-primary);
+    fill: currentColor;
     width: 9.25rem;
     height: 2.5rem;
-    display: block;
 }
 
 nav .nav__btn-actions {
@@ -41,10 +67,10 @@ nav .nav__btn-actions {
 }
 
 nav .nav_languages {
-    display: flex;
+    width: auto
 }
 
-nav .nav_symb-lang{
+nav .nav_symb-lang {
     position: absolute;
 
 }
@@ -72,6 +98,8 @@ nav .nav_container {
     text-align: center;
 }
 
+/* header */
+
 header .container {
     width: 100%;
     display: flex;
@@ -80,13 +108,13 @@ header .container {
 }
 
 header {
-    height: 100%;
-    justify-self: center;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav-head {
     float: left;
-    margin: 0;
     padding: 10px;
     width: 100%;
     height: 100%;
@@ -97,43 +125,22 @@ header {
     top: 0;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-}
-
-/* backgroud */
-
-.bg-image {
-    height: inherit;
-    display: flex;
-    justify-self: flex-start;
-    object-fit: cover;
-    overflow: clip;
-    background-color: rgba(255, 255, 255, 0.7) ;
-}
-
-.transparent {
-    height: 43.75rem;
-    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%)
-}
-
 /* call to action  */
 .callToAction {
     height: fit-content;
     width: auto;
-    margin: 16px 127.31px ;
+    margin: 16px 127.31px;
 }
 
-.email{
+.email {
     height: 3.5rem;
     flex: 1;
 }
 
-.email label, .email-text {
-height: 100%;
-    width: 100%;
-
+.email label,
+.email-text {
+    height: 100%;
+    width: 98%;
 }
 
 .email label {
@@ -146,6 +153,92 @@ height: 100%;
 .email input {
     width: 100%;
     height: 100%;
+    border-radius: 0.3rem;
     cursor: text;
     background: transparent;
+}
+
+.callToAction button {
+    width: auto;
+}
+
+/* backgroud */
+
+.bg-image {
+    height: inherit;
+    display: flex;
+    justify-self: flex-start;
+    object-fit: cover;
+    overflow: clip;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.transparent {
+    height: 43.75rem;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.822) 0, rgba(0, 0, 0, 0.166) 60%, rgba(0, 0, 0, 0.8) 100%)
+}
+
+@media (max-width: 600px) {
+#max-width {
+    max-width: 61.5rem;
+}
+    .title {
+        font-size: 32px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    p {
+        font-size: 18px;
+        max-width: inherit;
+        text-align: center;
+    }
+
+    .headerLayout {
+        max-width: calc(100% + 0.5rem);
+        height: 32rem;
+    }
+
+    #nav_container{
+        padding: 1rem;
+    }
+
+    .nav__btn-actions {
+        height: 24px;
+    }
+
+    nav #logo {
+        height: 1.5rem;
+        width: auto;
+
+    }
+
+    .nav-head {
+        height: inherit;
+        max-width: inherit;
+    }
+
+    header {
+        height: inherit;
+        max-width: inherit;
+    }
+
+
+    .callToAction {
+        margin: 18px 0 0 0;
+        max-width: inherit;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #email {
+        height: 48px;
+        max-width: inherit;
+    }
+
+    #email label, #email label {
+        min-height: 24px;
+        max-width: inherit;
+            padding: 20px 0
+    }
 }
