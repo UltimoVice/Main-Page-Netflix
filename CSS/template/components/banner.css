@@ -22,6 +22,7 @@
     margin-top: 4px;
     margin-bottom: 8px;
     font-family: var(--font-family);
+    align-items: start;
 }
 
 
@@ -53,4 +54,8 @@
     font-family: var(--font-family);
     font-size: inherit;
     text-decoration: underline;
+}
+
+.pop-block {
+    display: block;
 }
