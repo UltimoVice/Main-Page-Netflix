@@ -1,15 +1,22 @@
 .containerdomande {
     max-width: var(--general-max-width);
+    flex-direction: column;
+    margin: auto;
 }
 
 .dimension {
-    margin: 1.5rem 0 0;
-   
+    cursor: pointer;
+    margin: 0.5rem 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 .primotitolo {
     color: var(--color-secondary);
     font-family: var(--font-family);
+    margin-bottom: 1.5rem;
 }
 
 .ask-text {
@@ -19,7 +26,12 @@
     font-weight: inherit;
     margin-bottom: 0.0625rem;
     position: relative;
-    background-color: rgb(45,45,45);
+    background-color: transparent;
+    width: var(--general-max-width);  
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .ask-hover:hover {
@@ -32,6 +44,10 @@
 .altrititoli {
     color: var(--color-secondary);
     font-family: var(--font-family);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(45,45,45);
 }
 
 .ask-button {
@@ -40,4 +56,12 @@
     text-decoration: none;
     border: none;
     color: var(--color-secondary);
+}
+
+.ask-text-btn {
+    padding-left: 20px;
+    font-size: var(--main-text-font-size);
+    font-weight: var(--text-font-weight);
+    color: var(--color-secondary);
+    font-family: var(--font-family);
 }
