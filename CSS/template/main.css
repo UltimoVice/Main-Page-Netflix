@@ -115,3 +115,39 @@ hr {
     border: 0px;
 }
 
+@media screen and (max-width: 959px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .card-text {
+        text-align: center;
+        padding: 0;
+        order: 1;
+    }
+
+    .title {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .main-text {
+        margin: 1rem 0 0;
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+    .png {
+        margin: 0 10vw;
+        order: 2;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    
+}
+
+@media screen and (max-width: 598px) {
+    
+}
+
