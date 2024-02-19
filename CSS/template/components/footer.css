@@ -1,0 +1,13 @@
+@import url(../utility.css);
+.footer_container {
+    display: flex;
+    flex: 1;
+}
+.footer_column{
+    display: flex;
+    flex-direction: column;
+    flex: 1;  
+}
+a{
+    color: white;
+}
