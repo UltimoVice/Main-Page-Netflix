@@ -130,6 +130,14 @@ header {
     height: fit-content;
     width: auto;
     margin: 16px 127.31px;
+    max-width: var(--general-max-width);
+}
+
+.callToAction-b {
+    height: fit-content;
+    width: 700px;
+    margin: 16px auto;
+    max-width: var(--general-max-width);
 }
 
 .email {
@@ -185,6 +193,15 @@ header {
         max-width: inherit;
         flex-direction: column;
         justify-content: space-between;
+        gap: 10px;
+    }
+
+    .callToAction-b {
+        margin: 18px 0 0 0;
+        max-width: inherit;
+        width: 600px;
+        flex-direction: column;
+        justify-content: start;
         gap: 10px;
     }
 
